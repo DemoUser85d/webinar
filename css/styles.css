@@ -1,3 +1,10 @@
-body {
-    background-color: tomato;
+.test-link {
+  color: rgb(255, 0, 0);  
+}
+.test-link:hover, 
+.test-link:focus {
+   color: aqua; 
+}
+.test-link:active {
+    color:teal;
 }
